@@ -1,0 +1,613 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "john",
+      "password": "pwd",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "username": "stella",
+      "password": "pwd",
+      "role": "cashier"
+    },
+    {
+      "id": 3,
+      "name": "george",
+      "password": "pwd",
+      "role": "cashier"
+    }
+  ],
+  "stocks": [
+    {
+      "id": 1,
+      "name": "Kove Bathing Soap Bar 50g",
+      "category": "Personal Care",
+      "price": 2
+    },
+    {
+      "id": 2,
+      "name": "Kove Bathing Soap Bar 100g",
+      "category": "Personal Care",
+      "price": 3
+    },
+    {
+      "id": 3,
+      "name": "Kove Bathing Soap Bar 125g",
+      "category": "Personal Care",
+      "price": 4
+    },
+    {
+      "id": 4,
+      "name": "Jolgate Max Fresh 150g1",
+      "category": "Beverages",
+      "price": "21"
+    },
+    {
+      "id": 5,
+      "name": "Jolgate Max Fresh 75g",
+      "category": "Personal Care",
+      "price": 3
+    },
+    {
+      "id": 6,
+      "name": "Jolgate Total 120g",
+      "category": "Personal Care",
+      "price": 4
+    },
+    {
+      "id": 7,
+      "name": "Jolgate Strong 120g",
+      "category": "Personal Care",
+      "price": 2
+    },
+    {
+      "id": 8,
+      "name": "Sun Detergent Bar 250g",
+      "category": "Personal Care",
+      "price": 3
+    },
+    {
+      "id": 9,
+      "name": "Sun Advanced Detergent Bar 250g",
+      "category": "Personal Care",
+      "price": 4
+    },
+    {
+      "id": 10,
+      "name": "Sun Detergent Powder 500g",
+      "category": "Personal Care",
+      "price": 2
+    },
+    {
+      "id": 11,
+      "name": "Sun Detergent Powder 1kg",
+      "category": "Personal Care",
+      "price": 3
+    },
+    {
+      "id": 12,
+      "name": "Jolgate Toothbrush",
+      "category": "Personal Care",
+      "price": 4
+    },
+    {
+      "id": 13,
+      "name": "Koka Soft Drink Pet Bottle 750ml",
+      "category": "Beverages",
+      "price": 2
+    },
+    {
+      "id": 14,
+      "name": "Koka Soft Drink Pet Bottle 500ml",
+      "category": "Beverages",
+      "price": 3
+    },
+    {
+      "id": 15,
+      "name": "Koka Soft Drink Pet Bottle 250ml",
+      "category": "Beverages",
+      "price": 4
+    },
+    {
+      "id": 16,
+      "name": "Koka Soft Drink Can 300ml",
+      "category": "Beverages",
+      "price": 2
+    },
+    {
+      "id": 17,
+      "name": "Santa Grapes Pet Bottle 250ml",
+      "category": "Beverages",
+      "price": 3
+    },
+    {
+      "id": 18,
+      "name": "Santa Grapes Can 300ml",
+      "category": "Beverages",
+      "price": 4
+    },
+    {
+      "id": 19,
+      "name": "Fropics Orange Fruit Juice 1000ml",
+      "category": "Beverages",
+      "price": 2
+    },
+    {
+      "id": 20,
+      "name": "Fropics Grapes Fruit Juice 1000ml",
+      "category": "Beverages",
+      "price": 3
+    },
+    {
+      "id": 21,
+      "name": "Fropics Cranberry Fruit Juice 1000ml",
+      "category": "Beverages",
+      "price": 4
+    },
+    {
+      "id": 22,
+      "name": "Fropics Mango Fruit Juice 1000ml",
+      "category": "Beverages",
+      "price": 2
+    },
+    {
+      "id": 23,
+      "name": "Fropics Mixed Fruit Juice 1000ml",
+      "category": "Beverages",
+      "price": 3
+    },
+    {
+      "id": 24,
+      "name": "Zingo Potato Chips Original 100g",
+      "category": "Snacks",
+      "price": 4
+    },
+    {
+      "id": 25,
+      "name": "Zingo Potato Chips Salted 100g",
+      "category": "Snacks",
+      "price": 2
+    },
+    {
+      "id": 26,
+      "name": "Zingo Potato Chips Spicy 100g",
+      "category": "Snacks",
+      "price": 3
+    },
+    {
+      "id": 27,
+      "name": "Zingo Potato Chips Cheesy 100g",
+      "category": "Snacks",
+      "price": 4
+    },
+    {
+      "id": 28,
+      "name": "Dreo Vannilla Cream Biscuit 500g",
+      "category": "Snacks",
+      "price": 2
+    },
+    {
+      "id": 29,
+      "name": "Dreo Strawberry Cream Biscuit 500g",
+      "category": "Snacks",
+      "price": 3
+    },
+    {
+      "id": 30,
+      "name": "Dreo Wafer Biscuit 200g",
+      "category": "Snacks",
+      "price": 4
+    },
+    {
+      "id": 31,
+      "name": "Tomato 500g",
+      "category": "Vegetables",
+      "price": 2
+    },
+    {
+      "id": 32,
+      "name": "Tomato 1kg",
+      "category": "Vegetables",
+      "price": 3
+    },
+    {
+      "id": 33,
+      "name": "Brinjal 500g",
+      "category": "Vegetables",
+      "price": 4
+    },
+    {
+      "id": 34,
+      "name": "Brinjal 1kg",
+      "category": "Vegetables",
+      "price": 2
+    },
+    {
+      "id": 35,
+      "name": "Carrot 500g",
+      "category": "Vegetables",
+      "price": 3
+    },
+    {
+      "id": 36,
+      "name": "Carrot 1kg",
+      "category": "Vegetables",
+      "price": 4
+    },
+    {
+      "id": 37,
+      "name": "Apple 500g",
+      "category": "Fruits",
+      "price": 2
+    },
+    {
+      "id": 38,
+      "name": "Apple 1kg",
+      "category": "Fruits",
+      "price": 3
+    },
+    {
+      "id": 39,
+      "name": "Banana 500g",
+      "category": "Fruits",
+      "price": 4
+    },
+    {
+      "id": 40,
+      "name": "Banana 1kg",
+      "category": "Fruits",
+      "price": 2
+    },
+    {
+      "id": 41,
+      "name": "Orange 500g",
+      "category": "Fruits",
+      "price": 3
+    },
+    {
+      "id": 42,
+      "name": "Orange 1kg",
+      "category": "Fruits",
+      "price": 4
+    },
+    {
+      "id": 43,
+      "name": "Grapes 500g",
+      "category": "Fruits",
+      "price": 2
+    },
+    {
+      "id": 44,
+      "name": "Grapes 1kg",
+      "category": "Fruits",
+      "price": 3
+    },
+    {
+      "id": 45,
+      "name": "Tez Homogenized Milk 500ml",
+      "category": "Dairy Products",
+      "price": 4
+    },
+    {
+      "id": 46,
+      "name": "Tez Homogenized Milk 1000ml",
+      "category": "Dairy Products",
+      "price": 2
+    },
+    {
+      "id": 47,
+      "name": "Tez Cheese Slices 200g",
+      "category": "Dairy Products",
+      "price": 3
+    },
+    {
+      "id": 48,
+      "name": "Tez Cheese Block 200g",
+      "category": "Dairy Products",
+      "price": 4
+    },
+    {
+      "id": 49,
+      "name": "Tez Cheese Spread 200g",
+      "category": "Dairy Products",
+      "price": 2
+    },
+    {
+      "id": 50,
+      "name": "Tez Cheese Spread 100g",
+      "category": "Dairy Products",
+      "price": 1
+    },
+    {
+      "id": 51,
+      "name": "Tez Cheese Spread 10g",
+      "category": "Dairy Products",
+      "price": "1"
+    },
+    {
+      "id": 52,
+      "name": "Tez Cheese Spread 150g",
+      "category": "Dairy Products",
+      "price": "1"
+    },
+    {
+      "id": 53,
+      "name": "1",
+      "category": "Dairy Products",
+      "price": "1"
+    },
+    {
+      "id": 54,
+      "name": "1",
+      "category": "Dairy Products",
+      "price": "1"
+    },
+    {
+      "id": 55,
+      "name": "1",
+      "category": "Dairy Products",
+      "price": "1"
+    },
+    {
+      "id": 56,
+      "name": "1",
+      "category": "Dairy Products",
+      "price": "1"
+    },
+    {
+      "id": 57,
+      "name": "1",
+      "category": "Dairy Products",
+      "price": "1"
+    },
+    {
+      "id": 58,
+      "name": "1",
+      "category": "Vegetables",
+      "price": "1"
+    },
+    {
+      "id": 59,
+      "name": "1",
+      "category": "Dairy Products",
+      "price": "1"
+    },
+    {
+      "id": 60,
+      "name": "1",
+      "category": "Dairy Products",
+      "price": "1"
+    },
+    {
+      "id": 61,
+      "name": "1",
+      "category": "Fruits",
+      "price": "1"
+    },
+    {
+      "id": 62,
+      "name": "1",
+      "category": "Dairy Products",
+      "price": "1"
+    },
+    {
+      "id": 63,
+      "name": "1",
+      "category": "Dairy Products",
+      "price": "1"
+    },
+    {
+      "id": 64,
+      "name": "2",
+      "category": "Dairy Products",
+      "price": "2"
+    },
+    {
+      "id": 65,
+      "name": "Jenlox Washing Powder 300g",
+      "category": "Personal Care",
+      "price": "6"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Dairy Products"
+    },
+    {
+      "id": 2,
+      "name": "Fruits"
+    },
+    {
+      "id": 3,
+      "name": "Vegetables"
+    },
+    {
+      "id": 4,
+      "name": "Snacks"
+    },
+    {
+      "id": 5,
+      "name": "Beverages"
+    },
+    {
+      "id": 6,
+      "name": "Personal Care"
+    }
+  ],
+  "bills": [
+    {
+      "id": 1,
+      "billedBy": 2,
+      "date": "2023-03-01T07:32:45.0+0530",
+      "total": 8,
+      "items": [
+        {
+          "number": 1,
+          "name": "Sun Advanced Detergent Bar 250g",
+          "quantity": 1,
+          "rate": 4,
+          "lineTotal": 4
+        },
+        {
+          "number": 2,
+          "name": "Tez Cheese Spread 200g",
+          "quantity": 2,
+          "rate": 2,
+          "lineTotal": 4
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "billedBy": 2,
+      "date": "2023-03-25T04:34:34.672Z",
+      "total": 48,
+      "items": [
+        {
+          "sequence": 1,
+          "itemName": "Fropics Cranberry Fruit Juice 1000ml",
+          "quantity": 2,
+          "rate": 4,
+          "lineTotal": 8
+        },
+        {
+          "sequence": 2,
+          "itemName": "Zingo Potato Chips Spicy 100g",
+          "quantity": 3,
+          "rate": 3,
+          "lineTotal": 9
+        },
+        {
+          "sequence": 3,
+          "itemName": "Zingo Potato Chips Cheesy 100g",
+          "quantity": 4,
+          "rate": 4,
+          "lineTotal": 16
+        },
+        {
+          "sequence": 4,
+          "itemName": "Dreo Strawberry Cream Biscuit 500g",
+          "quantity": 5,
+          "rate": 3,
+          "lineTotal": 15
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "billedBy": 2,
+      "date": "2023-03-25T04:36:56.368Z",
+      "total": 11,
+      "items": [
+        {
+          "sequence": 1,
+          "itemName": "Fropics Cranberry Fruit Juice 1000ml",
+          "quantity": 1,
+          "rate": 4,
+          "lineTotal": 4
+        },
+        {
+          "sequence": 2,
+          "itemName": "Zingo Potato Chips Spicy 100g",
+          "quantity": 1,
+          "rate": 3,
+          "lineTotal": 3
+        },
+        {
+          "sequence": 3,
+          "itemName": "Zingo Potato Chips Cheesy 100g",
+          "quantity": 1,
+          "rate": 4,
+          "lineTotal": 4
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "billedBy": 2,
+      "date": "2023-03-28T14:33:00.982Z",
+      "total": 3,
+      "items": [
+        {
+          "sequence": 1,
+          "itemName": "Tez Cheese Slices 200g",
+          "quantity": 1,
+          "rate": 3,
+          "lineTotal": 3
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "billedBy": 2,
+      "date": "2023-03-29T06:16:10.679Z",
+      "total": 8,
+      "items": [
+        {
+          "sequence": 1,
+          "itemName": "Jolgate Toothbrush",
+          "quantity": 2,
+          "rate": 4,
+          "lineTotal": 8
+        }
+      ]
+    },
+    {
+      "billedBy": 2,
+      "date": "2023-06-07T16:08:43.583Z",
+      "total": 8,
+      "items": [
+        {
+          "sequence": 1,
+          "itemName": "Kove Bathing Soap Bar 125g",
+          "quantity": 1,
+          "rate": 4,
+          "lineTotal": 4
+        },
+        {
+          "sequence": 1,
+          "itemName": "Jolgate Total 120g",
+          "quantity": 1,
+          "rate": 4,
+          "lineTotal": 4
+        }
+      ],
+      "id": 6
+    }
+  ],
+  "cashier-bills": [
+    {
+      "id": 1,
+      "cashier": 2,
+      "date": "2023-03-01T00:00:00.0+0530",
+      "count": 15
+    },
+    {
+      "id": 2,
+      "cashier": 2,
+      "date": "2023-03-24T12:08:06.898Z",
+      "count": 14
+    },
+    {
+      "id": 3,
+      "cashier": 2,
+      "date": "2023-03-25T04:05:45.062Z",
+      "count": 28
+    },
+    {
+      "id": 4,
+      "cashier": 2,
+      "date": "2023-03-28T09:39:05.390Z",
+      "count": 6
+    },
+    {
+      "id": 5,
+      "cashier": 2,
+      "date": "2023-03-29T06:15:57.020Z",
+      "count": 1
+    }
+  ]
+}
