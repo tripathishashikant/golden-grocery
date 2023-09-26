@@ -50,6 +50,7 @@ const actions = {
       commit("SET_USER", currentUser[0]);
       const redirectTo = state.user.role === "admin" ? "/stock" : "/bill";
       dispatch("setRedirectTo", redirectTo);
+      dispatch("setInvalidUserError", false);
     } else {
       dispatch("setInvalidUserError", true);
     }
