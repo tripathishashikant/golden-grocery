@@ -1,5 +1,8 @@
 import { createRouter, createWebHistory } from "vue-router";
+import store from "../store";
+
 import HomeView from "../views/HomeView.vue";
+import LoginView from "../views/LoginView.vue";
 
 const routes = [
   {
@@ -8,19 +11,38 @@ const routes = [
     component: HomeView,
   },
   {
-    path: "/about",
-    name: "about",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () =>
-      import(/* webpackChunkName: "about" */ "../views/AboutView.vue"),
+    path: "/login",
+    name: "login",
+    component: LoginView,
+  },
+  {
+    path: "/stock",
+    name: "stock",
+    component: () => import("../views/StockView.vue"),
+    meta: { requiresAuth: true },
+  },
+  {
+    path: "/bill",
+    name: "bill",
+    component: () => import("../views/BillView.vue"),
+    meta: { requiresAuth: true },
   },
 ];
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes,
+  store,
+});
+
+router.beforeEach((to, form, next) => {
+  const isNotAuthenticated = !store.getters["loginStore/isAuthenticated"];
+
+  if (to.meta.requiresAuth && isNotAuthenticated) {
+    next({ name: "login", query: { redirect: to.fullPath } });
+  } else {
+    next();
+  }
 });
 
 export default router;
