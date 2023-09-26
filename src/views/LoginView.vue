@@ -3,10 +3,10 @@
     <div class="login__wrapper">
       <h2 class="login__title">Login</h2>
       <div class="login__errorWrapper">
-        <p v-show="isInvalidUser" class="login__error">Invalid User!</p>
-        <!-- <p v-show="serviceError" class="login__error">
+        <p v-if="isInvalidUser" class="login__error">Invalid User!</p>
+        <p v-if="serviceError" class="login__error">
           Service Unavailable. Please try again after sometime!
-        </p> -->
+        </p>
       </div>
       <div class="login__formWrapper">
         <form class="login__form">
@@ -46,12 +46,14 @@
 </template>
 
 <script setup>
-import { computed, watch } from "vue";
+import { ref, computed, watch } from "vue";
 import { useStore } from "vuex";
 import { useRouter } from "vue-router";
 
 const store = useStore();
 const router = useRouter();
+
+const serviceError = ref(false);
 
 const loginData = {
   username: null,

@@ -19,7 +19,7 @@ const mutations = {
     state.user = null;
   },
   SET_INVALID_USER_ERROR(state, value) {
-    state.invalidUserError = value;
+    state.invalidUser = value;
   },
   SET_REDIRECT_TO(state, value) {
     state.redirectTo = value;
@@ -41,7 +41,9 @@ const actions = {
       r.json()
     );
     const currentUser = users.filter(
-      (user) => user.username === loginData.username
+      (user) =>
+        user.username === loginData.username &&
+        user.password === loginData.password
     );
 
     if (currentUser.length > 0) {
