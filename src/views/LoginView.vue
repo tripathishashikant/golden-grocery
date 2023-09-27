@@ -3,9 +3,11 @@
     <div class="login__wrapper">
       <h2 class="login__title">Login</h2>
       <div class="login__errorWrapper">
-        <p v-if="isInvalidUser" class="login__error">Invalid User!</p>
-        <p v-if="serviceError" class="login__error">
-          Service Unavailable. Please try again after sometime!
+        <p v-if="isInvalidUser" class="login__error">
+          {{ invalidUserErrorMessage }}
+        </p>
+        <p v-if="isfetchUserError" class="login__error">
+          {{ serviceErrorMessage }}
         </p>
       </div>
       <div class="login__formWrapper">
@@ -52,8 +54,10 @@ import { useRouter } from "vue-router";
 
 const store = useStore();
 const router = useRouter();
-
-const serviceError = ref(false);
+const invalidUserErrorMessage = ref("Invalid User!");
+const serviceErrorMessage = ref(
+  "Service Unavailable. Please try again after sometime!"
+);
 
 const loginData = {
   username: null,
@@ -61,6 +65,9 @@ const loginData = {
 };
 
 const isInvalidUser = computed(() => store.getters["loginStore/isInvalidUser"]);
+const isfetchUserError = computed(
+  () => store.getters["loginStore/isfetchUserError"]
+);
 
 watch(
   () => store.getters["loginStore/redirectTo"],
