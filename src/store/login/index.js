@@ -1,4 +1,4 @@
-import { fetchUserData } from "@/services/axios";
+import { fetchWithGet } from "@/services/axios";
 const state = {
   user: null,
   invalidUser: false,
@@ -47,7 +47,7 @@ const actions = {
   },
   async login({ commit, dispatch }, loginData) {
     try {
-      const response = await fetchUserData();
+      const response = await fetchWithGet("/users");
       const users = response.data;
       const currentUser = users.filter(
         (user) =>

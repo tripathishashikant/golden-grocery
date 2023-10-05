@@ -1,5 +1,7 @@
 import { createStore } from "vuex";
 import loginStore from "./login";
+import stockStore from "./stock";
+import modalStore from "./modal";
 
 const mainState = {
   title: "Golden Grocery",
@@ -36,6 +38,8 @@ const store = createStore({
   actions,
   modules: {
     loginStore,
+    stockStore,
+    modalStore,
   },
 });
 

@@ -9,18 +9,15 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import TheNav from "@/components/app/shared/TheNav";
-
-export default {
-  name: "HomeView",
-  components: {
-    TheNav,
-  },
-};
 </script>
 
 <style>
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-size: 62.5%;
   line-height: 1.2;

@@ -409,6 +409,42 @@
       "name": "Jenlox Washing Powder 300g",
       "category": "Personal Care",
       "price": "6"
+    },
+    {
+      "name": null,
+      "category": null,
+      "price": null,
+      "id": 66
+    },
+    {
+      "name": null,
+      "category": null,
+      "price": null,
+      "id": 67
+    },
+    {
+      "name": "Kove Bathing Soap Bar 125g",
+      "category": "Personal Care",
+      "price": 4,
+      "id": 68
+    },
+    {
+      "name": "Tetly tea 25 packs",
+      "category": "0",
+      "price": 250,
+      "id": 69
+    },
+    {
+      "name": "Tetly tea 25 packs",
+      "category": "0",
+      "price": 250,
+      "id": 70
+    },
+    {
+      "name": "Zandu balm 50gm",
+      "category": "Dairy Products",
+      "price": 74,
+      "id": 71
     }
   ],
   "categories": [

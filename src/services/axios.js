@@ -8,8 +8,13 @@ const api = axios.create({
   },
 });
 
-const fetchUserData = () => {
-  return api.get("/users");
+const fetchWithGet = (path) => {
+  return api.get(path);
+};
+
+// Add the fetchWithPost method
+const fetchWithPost = (path, data) => {
+  return api.post(path, data);
 };
 
 api.interceptors.request.use(
@@ -35,4 +40,4 @@ api.interceptors.response.use(
 
 export default api;
 
-export { fetchUserData };
+export { fetchWithGet, fetchWithPost };

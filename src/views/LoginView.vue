@@ -76,7 +76,7 @@ watch(
   }
 );
 
-const onSubmit = async () => {
+const onSubmit = () => {
   store.dispatch("loginStore/login", loginData);
 };
 </script>
